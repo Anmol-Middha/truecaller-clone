@@ -5,31 +5,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="index.css">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Material design bootstrap cdn-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+  <!-- fontawesome cdn-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+<!-- CSS styling -->
 <style>
 body{
 	font-size: 1.6rem;
@@ -51,14 +43,13 @@ body{
 	border-radius: 5px;
 	min-height: 465px;
 	animation-duration: 1.5s;
-	
-
 }
 .homebanner{
 	background: url(https://adsmanager.truecaller.com/img/content/bg-banner.jpg) no-repeat;
 	background-size: cover;
 	width: 100%;
 	padding: 70px 15px;
+	padding-top: 100px;
     min-height: 100vh;
     margin-bottom: 0;
 }
@@ -77,6 +68,19 @@ body{
 .btn:hover{
 	border: none;
 }
+#btn-link{
+	font-family:Open Sans;
+	font-weight:600;
+	color:#da4e51!important;
+	text-decoration: none;
+}
+#btn-link:hover{
+	background-color: #da4e51;
+	font-family:Open Sans;
+	font-weight:600;
+	color:white!important;
+	text-decoration: none;
+}
 #help-form{
 	padding-top: 50px;
 	padding-bottom: 50px; 
@@ -86,21 +90,13 @@ body{
 .title-font{
 	font-family: Montserrat,Arial,Helvetica,sans-serif;
 	font-weight: 700;
-	font-size: 30px;
-}
-.jumbotron{
-	margin-bottom:0px;
-	margin-right:0px;
-	margin-left:0px;
-	width:100%;
-	padding-left: 100px;
-	padding-right: 100px
 }
 .dot{
 	color: #DA4E51;
 }
 #what-get-icon{
 	font-size: 90px;
+	color:#3e2f91;
 }
 .about-us{
 	background-color: #3e2f91;
@@ -141,33 +137,59 @@ padding-top: 50px
 	flex-wrap: wrap;
 	position: relative;
 }
+.social-div{
+	margin-right: 0px; 
+	margin-left: 0px;
+	padding-right: 0px; 
+	padding-left: 0px;
+}
+.social-network-icons{
+	color:white; font-size:40px;
+}
+@media screen and (min-width: 768px){
+	.logo{
+		width:20vw!important;
+		height: auto
+	}
+}
+.logo{
+	width:40vw;
+	height: auto;
+}
+.request-access-btn{
+	margin-top: 15px;
+	height: auto;
+	line-height: 1.2;
+}
+.what-get{
+	background-color: #f3f3f3;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+.about-us, .help-form{
+	padding-top: 40px;
+	padding-bottom: 40px; 
+}
 </style>
 
-
-
-<div id="wrapper">
 <header>
-   
-        		<a src="https://adsmanager.truecaller.com">
-        			<img class=" navbar-brand img-responsive" src="https://da-trc-usercontent.s3.eu-central-1.amazonaws.com/visual-settings/adff1f1909d02193871275696d1e2286.png" alt="Truecaller" style="width:30vw; height: 80px">
+   				<a src="https://adsmanager.truecaller.com">
+        			<img class=" navbar-brand img-responsive logo" src="https://da-trc-usercontent.s3.eu-central-1.amazonaws.com/visual-settings/adff1f1909d02193871275696d1e2286.png" alt="Truecaller">
         		</a>
 
-        		<a class="pull-right btn  btn-link radius-lg  btn-login" href="https://adsmanager.truecaller.com/request-access"> Request Access </a>
- 
+        		<button class="pull-right btn-link btn request-access-btn" id="btn-link" src="https://adsmanager.truecaller.com/request-access"> Request Access </button>
 </header>
 
-
-<div class="homebanner v-table login">
-    <div class="v-align">
-        <div class="container">
+<!--Login window-->
+<div class="homebanner">
+    <div class="container">
         	
             <div class="row ">
-                <div class="login-box animated tada">
+                <div class="login-box">
                       <header>
-                          <center><h1 class="title-font">Welcome<br><small>To get started, please log-in below.</small></h1></center>
+                          <center><h1 class="title-font"><b>Welcome</b><br><small>To get started, please log-in below.</small></h1></center>
                       </header>
                       <form method="POST" action="https://adsmanager.truecaller.com/login" accept-charset="UTF-8" role="form" autocomplete="off">
-                      	<input name="_token" type="hidden" value="ijYFKy5vmegmzsRP9ZLH97UW8phJYw468iKEiPkc">
                         <div class="form-group">
                             <div class="clearfix ">
     							<label for="email" class="label-control">Email</label>
@@ -177,7 +199,7 @@ padding-top: 50px
     							<label for="password" class="label-control">Password</label>
 						    	<input class="form-control" id="password" name="password" type="password">
 						    </div>
-                            <div class="clearfix forgot-row">
+                            <div class="clearfix">
                             	<a href="https://adsmanager.truecaller.com/password/reset/request" class="pull-right">
                                     Forgot password?
                                 </a>
@@ -193,36 +215,28 @@ padding-top: 50px
                       </form>
                 </div>
             </div>
-        </div>
     </div>
-</div>        <div class="messages flash-alerts">
-    
-													
-    </div>        <main id="main" role="main">
-                <div class="homepage-block">
-
-
-
-
-
-<section>
-    <div class="container jumbotron">
+</div>
+       
+<!-- What do you get window-->    
+<section class="what-get">
+    <div class="container what-get">
         <div>
-            <center><h2>
-                <strong>What do you get</strong> <b class="dot">.</b></span>
-            </h2></center>
+            <center><h1 class="title-font">
+                What do you get <b class="dot">.</b></span>
+            </h1></center>
         </div>
         <br><br>
         <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3">
          				<center><i class="fas fa-clock" id="what-get-icon" aria-hidden="true"></i>
-                        <h3>Time saving</h3>
+                        <h3 class="subtitle-font" style="color:#3e2f91">Time saving</h3>
                         <p class="text-muted">Our booking solution is open 24-hours a day for you to book your campaign at any time.</p>
                			</center>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
          				<center><i class="fas fa-desktop" id="what-get-icon" aria-hidden="true"></i>
-                        <h3>
+                        <h3 class="subtitle-font" style="color:#3e2f91">
                             Easy booking
                         </h3>
                         <p class="text-muted">Book campaigns using your own creatives and choose the appropriate targeting and budget that works best for you.</p></center>              
@@ -230,7 +244,7 @@ padding-top: 50px
                 <div class="col-xs-12 col-sm-6 col-md-3">
          				<center><i class="far fa-money-bill-alt" id="what-get-icon" aria-hidden="true"></i>
     					
-    					<h3>
+    					<h3 class="subtitle-font" style="color:#3e2f91">
                             Manage all Campaigns
                         </h3>
                         <p class="text-muted">From forecasting avails, to pacing and reporting, get all the info you need to set up and manage your campaigns.</p>           
@@ -238,7 +252,7 @@ padding-top: 50px
                     </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     	<center><i class="fas fa-briefcase" id="what-get-icon" aria-hidden="true"></i>
-                    	<h3>
+                    	<h3 class="subtitle-font" style="color:#3e2f91">
                             No Insertion Campaign
                         </h3>
                         <p class="text-muted">No paperwork, no hassle. Launch your campaigns faster and speed up turnaround times.</p>
@@ -250,15 +264,12 @@ padding-top: 50px
     </div>
 </section>
 
-
-
-
-
+<!--About us window-->
 <section class="about-us">
-    <div class="container">
+    <div class="container about-us">
         <div>
             <h1><i class="fa fa-desktop" aria-hidden="true"></i>
-                <b>About us</b><span class="dot">.</span>
+                <b class="title-font">About us</b><span class="dot">.</span>
             </h1>
         </div>
         <div class="row">
@@ -273,20 +284,17 @@ padding-top: 50px
     
                     <div class="animated fadeInRight">
                             <h5 class="subtitle-font">Success stories</h5>
-	<p>Successful mobile advertising campaigns rely on innovative platforms and intelligent distribution. With Truecaller’s mobile advertising platform, brands are provided with a unique opportunity to engage millions of active users all over the world.</p>
-
-                        
-                    </div>
-                </div>
-            
+							<p>Successful mobile advertising campaigns rely on innovative platforms and intelligent distribution. With Truecaller’s mobile advertising platform, brands are provided with a unique opportunity to engage millions of active users all over the world.</p>
+					</div>
+            </div>
         </div>
     </div>
 </section>
 
-
+<!--help form-->
 <section>
-    <div class="container">
-                <section id="help-form" class="animated fadeInUp">
+    <div class="container help-form">
+        <section id="help-form" class="animated fadeInUp">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <h2>Do you need help getting started?</h2>
@@ -345,53 +353,54 @@ padding-top: 50px
                 </div>
             </div>
         </section>
-
     </div>
+</section>
 
+<!--Contac window-->
 <footer id="footer">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                
-                <center><p class="footer-font">
+                <center>
+                	<p class="footer-font">
                     The self-serve system is powered by <span style="color:white">DanAds</span>
                     <br/>
                     version 1.2.1
-                </p>
-                <p class="footer-font"><a href="https://advertisers.truecaller.com/" class="btn btn-link radius-lg">Back to TrueCaller Ads</a></p></center>
-
+                	</p>
+                	<p class="footer-font"><button src="https://advertisers.truecaller.com/" class="btn btn-link" id="btn-link">Back to TrueCaller Ads</button></p>
+                </center>
             </div>
             <div class="col-md-4">
-                <div class="copyright footer-font"><center>Copyright &copy; 2009-2018 True Software Scandinavia AB. All rights reserved. Truecaller™ is a registered trademark. Responsible publisher: Alan Mamedi appointed by True Software Scandinavia AB.</div>
-          
-                        <center><a class="footer-font" href="#" role="button" data-toggle="modal" data-target="#termsModal" style="color:white">Terms Of Service  |  Privacy Policy  |  Cookie Policy
-                        </a>
-                    
+                <div class="copyright footer-font">
+                	<center>Copyright &copy; 2009-2018 True Software Scandinavia AB. All rights reserved. Truecaller™ is a registered trademark. Responsible publisher: Alan Mamedi appointed by True Software Scandinavia AB.
+                </div>
+                    <center><a class="footer-font" href="#" role="button" style="color:white">Terms Of Service  |  Privacy Policy  |  Cookie Policy
+                    </a> 
             </div>
             <div class="col-md-4" >
                 
 
 
-					<div class="row" style="margin-right: 0px; margin-left: 0px; padding-right: 0px; padding-left: 0px">
+					<div class="row social-div">
 							<div class="col-xs-4">
-					      <center><a target="_blank" rel="noopener" href="https://www.facebook.com/Truecaller/" ><i class="fab fa-facebook" style="color:white; font-size:40px"></i></a>
+					      <center><a class="social-network-icons" target="_blank" rel="noopener" href="https://www.facebook.com/Truecaller/" ><i class="fab fa-facebook" style=""></i></a>
 					   		</div>
-					   		<div class="col-xs-4">	
-					      <center><a target="_blank" rel="noopener" href="https://plus.google.com/+truecaller" ><i class="fab fa-google-plus" style="color:white; font-size:40px"></i></a>
+					   		<div class="col-xs-4 social-network-icons">	
+					      <center><a class="social-network-icons" target="_blank" rel="noopener" href="https://plus.google.com/+truecaller" ><i class="fab fa-google-plus"></i></a>
 					      	</div>
-					      	<div class="col-xs-4">
-                    	  <center><a target="_blank" rel="noopener" href="https://twitter.com/truecaller" ><i class="fab fa-twitter" style="color:white; font-size:40px"></i></a>
+					      	<div class="col-xs-4 social-network-icons">
+                    	  <center><a class="social-network-icons" target="_blank" rel="noopener" href="https://twitter.com/truecaller" ><i class="fab fa-twitter"></i></a>
 					   		</div>
 					   	
-					   	<div class="row" style="position: relative; top: 40px; margin-right: 0px; margin-left: 0px;padding-right: 0px; padding-left: 0px">
-					   		<div class="col-xs-4">
-					      <center><a target="_blank" rel="noopener" href="https://www.instagram.com/truecaller/" ><i class="fab fa-instagram" style="color:white; font-size:40px; margin-right: 0px"></i></a></li>
+					   	<div class="row social-div">
+					   		<div class="col-xs-4 social-network-icons">
+					      <center><a class="social-network-icons" target="_blank" rel="noopener" href="https://www.instagram.com/truecaller/" ><i class="fab fa-instagram"></i></a></li>
 					    	</div>
-					    	<div class="col-xs-4">
-					      <center><a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCtz1lDuJXH7ShIa6n4UAEAg" ><i class="fab fa-youtube" style="color:white; font-size:40px"></i></a>
+					    	<div class="col-xs-4 social-network-icons">
+					      <center><a class="social-network-icons" target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCtz1lDuJXH7ShIa6n4UAEAg" ><i class="fab fa-youtube"></i></a>
 					    	</div>
-					    	<div class="col-xs-4">
-					      <center><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/true-software-scandinavia-ab" ><i class="fab fa-linkedin" style="color:white; font-size:40px"></i></a>
+					    	<div class="col-xs-4 social-network-icons">
+					      <center><a class="social-network-icons" target="_blank" rel="noopener" href="https://www.linkedin.com/company/true-software-scandinavia-ab" ><i class="fab fa-linkedin"></i></a>
 					    	</div>
 					    </div>
 					</div>
@@ -400,7 +409,6 @@ padding-top: 50px
         </div>
     </div>
 </footer>
-
-</div>
 </body>
 </html>
+<!--end of document-->
